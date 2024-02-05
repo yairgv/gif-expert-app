@@ -18,7 +18,7 @@ export function GifExpertApp (){
 
    return(
       <>
-         <h1>Gif Expert </h1>
+         <h1>Gif Expert</h1>
          <AddCategory onNewSubmit={onAddCategory}/>
          <button onClick={reset} className="boton">Reset</button>
          
